@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untuk Nina • ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="locked">
+
+    <div id="welcome-screen" class="welcome-screen">
+        <div class="heart-icon-large">
+            <i class="fa-solid fa-envelope-open-text"></i>
+        </div>
+        <h2>Hai, Nina...</h2>
+        <p>Ada pesan buat kamu.</p>
+        <button onclick="bukaSurat()" class="open-letter-btn">
+            Buka Surat
+        </button>
+    </div>
+
+    <div class="floating-hearts" id="floating-hearts"></div>
+
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="nav-brand">
+                <i class="fa-solid fa-heart"></i>
+                <span>Untuk Nina</span>
+            </div>
+            <div class="nav-date">14 Juni 2026</div>
+        </div>
+    </nav>
+
+    <section id="opening" class="section opening">
+        <div class="opening-content">
+            <div class="heart-icon">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+            
+            <h1>Untuk Nina,</h1>
+            
+            <div class="opening-text">
+                <p>Ada sesuatu yang ingin aku sampaikan…</p>
+                <p>Tapi aku tidak ingin menuliskannya di kertas biasa.<br>
+                Jadi aku buatkan halaman kecil ini, khusus untuk kamu.</p>
+            </div>
+
+            <a href="#awal-pertemuan" class="scroll-btn">
+                <span>Scroll untuk mulai</span>
+                <i class="fa-solid fa-arrow-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <section id="awal-pertemuan" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Awal Cerita Kita</span>
+                <h2>Awal Pertemuan Kita yang Agak… Berantakan</h2>
+            </div>
+
+            <div class="story-card">
+                <p>Jujur, pertama kali kita “ketemu” lewat chat, aku lagi deg-degan banget.<br>
+                Orang tua kita tiba-tiba minta aku konvoi bareng kamu pulang karena kamu bawa motor sendirian.<br>
+                Aku yang biasanya santai, tiba-tiba nulis chat pertama dengan hati yang berdegup kencang.</p>
+            </div>
+
+            <div class="chat-wrapper">
+                <div class="chat-header">
+                    <div class="chat-profile">
+                        <img src="pfp.jpeg" alt="Nina">
+                        <div>
+                            <strong>Nina</strong>
+                            <span>online</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="chat-container" class="chat-container"></div>
+
+                <div class="chat-footer">
+                    <button onclick="startChatAnimation()" class="chat-btn">
+                        <i class="fa-solid fa-play"></i>
+                        <span>Tampilkan Obrolan Pertama Kita</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section memories">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Kenangan Kita</span>
+                <h2>Beberapa Kenangan Kecil Bersama</h2>
+            </div>
+
+            <div class="memory-card">
+                <div class="memory-content">
+                    <div class="memory-badge">Momen Pertama</div>
+                    <h3>GBK (Dadakan)</h3>
+                    <p>Suatu hari kamu ditawarin temen kantor buat ke GBK, tapi kamu nolak karena jauh dan nggak tau jalan.<br>
+                    Aku yang waktu itu baru beberapa kali main sama kamu, tiba-tiba nawarin “Ikut aku aja”.<br>
+                    Yang bikin aku kaget, orang tua aku langsung izinin aku bawa mobil buat nemenin kamu.<br>
+                    Di perjalanan pulang, aku fotoin kamu yang lagi asik foto pemandangan malam.<br>
+                    Waktu itu aku sadar… aku mulai nyaman sama kamu.</p>
+                </div>
+                <div class="memory-image">
+                    <img src="gbk.jpg" alt="GBK">
+                </div>
+            </div>
+
+            <div class="memory-card reverse">
+                <div class="memory-content">
+                    <div class="memory-badge">Momen Kedua</div>
+                    <h3>Nonton Netflix di Rumahmu</h3>
+                    <p>Kamu ajak aku main ke rumah buat nonton Netflix bareng.<br>
+                    Padahal lebih banyak ngobrolnya daripada nontonnya.<br>
+                    Kita foto-foto pake filter lucu, ketawa-ketawa, dan ngobrol sampai lupa waktu.<br>
+                    Rasanya tenang… kayak udah lama kenal.</p>
+                </div>
+                <div class="memory-image">
+                    <img src="netflix.jpg" alt="Netflix">
+                </div>
+            </div>
+
+            <div class="memory-card">
+                <div class="memory-content">
+                    <div class="memory-badge">Momen Ketiga</div>
+                    <h3>Our First PhotoBooth</h3>
+                    <p>Suatu hari kita cuma pengen ketemu sebentar buat melepas rindu.<br>
+                    Akhirnya kita PhotoBooth, Makan olie, ngobrol santai, lalu keliling kota malam-malam.<br>
+                    Nggak ada rencana besar, tapi justru momen kayak gini yang bikin aku senang bisa dekat sama kamu.</p>
+                </div>
+                <div class="memory-image">
+                    <img src="photobooth.jpg" alt="Burger">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section message">
+        <div class="container">
+            <div class="message-card">
+                <div class="section-header">
+                    <span class="section-badge">Aksi dari Aku</span>
+                    <h2>Satu Aksi Kecil</h2>
+                </div>
+
+                <div class="message-content">
+                    <p>Ninaaa,</p>
+                    <p>Hari ini aku kasih kamu bunga.<br>
+                    Bunga yang cantik, harum, dan pastinya suatu hari akan layu.</p>
+                    
+                    <p>Aku udah bilang aku gabakal janji tapi aku bakal nujukin kamu lewat aksi:</p>
+                    
+                    <p class="highlight">Aku akan terus mencintai kamu,<br>
+                    sampai bunga terakhir yang aku kasih ini hari ini benar-benar mati semua</p>
+                    
+                    <p>Mungkin sekarang kamu belum sadar.<br>
+                    Tapi coba kamu <strong>lebih teliti lagi</strong> memperhatikan bunga-bunga yang aku kasih hari ini.</p>
+                    
+                    <p>Kaalu kamu menemukannya…<br>
+                    semoga kamu ingat kata kata ini.</p>
+                    
+                    <p class="closing-note">Terima kasih sudah mau kita buat banyak kenangan kecil bareng.<br>
+                    Aku senang bisa dekat sama kamu.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section closing">
+        <div class="container">
+            <i class="fa-solid fa-heart closing-heart"></i>
+            
+            <h2>Terima kasih sudah mau baca sampai sini.</h2>
+            
+            <div class="closing-text">
+                <p>Aku sengaja ngasih ini hari ini,<br>
+                aku harap kamu bisa merasakan betapa spesialnya kamu buat aku.</p>
+                
+                <p>Semoga kamu suka bunga yang aku kasih hari ini,<br>
+                Semoga kamu suka dan inget terus sama aku</p>
+                
+                <p class="highlight-small">Jangan lupa senyum yaaa ninaaa, aku bakal terus disini sama kamu.</p>
+            </div>
+
+            <div class="closing-signature">
+                <p>Dari aku,<br>
+                <span>yang senang bisa dekat sama kamu.</span></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        Dibuat dengan ❤️ khusus untuk Nina
+    </footer>
+
+    <audio id="bg-music" loop>
+        <source src="lagu.mp3" type="audio/mpeg">
+    </audio>
+
+    <button id="music-toggle" class="music-toggle" onclick="toggleMusic()">
+        <i class="fa-solid fa-music"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
